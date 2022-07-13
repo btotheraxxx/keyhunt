@@ -1,7 +1,7 @@
 default:
 	g++ -O3 -c oldbloom/bloom.cpp -o oldbloom.o
 	g++ -O3 -c bloom/bloom.cpp -o bloom.o
-#	g++ -O3 -c sha256/sha256.c -o sha256.o
+	g++ -O3 -c sha256/sha256.c -o sha256.o
 	gcc -O3 -c base58/base58.c -o base58.o
 	gcc -O3 -c rmd160/rmd160.c -o rmd160.o
 	g++ -O3 -c sha3/sha3.c -o sha3.o
